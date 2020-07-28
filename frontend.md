@@ -59,7 +59,7 @@ import useMyHook from "@/hooks/useMyHook"; // 우리 모듈
   "compilerOptions": {
     ...,
     "baseUrl": "node_modules",
-    "paths": { "@/*", ["../src/*"] }
+    "paths": { "@/*": ["../src/*"] }
   }
 
 }
